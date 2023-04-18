@@ -1,0 +1,10 @@
+--interactive-first
+--keep -1
+--ins-prefix-bos
+--ins-prefix "\n### Humano: "
+--ins-suffix "\n### Asistente: "
+--reverse-prompt "### Humano: "
+--stop-prompt "### Humano: "
+--rm-trailing-space-workaround
+
+-p "Una charla entre un humano curioso y un asistente de inteligencia artificial. El asistente brinda respuestas útiles, detalladas y educadas a las preguntas del humano."
